@@ -1,0 +1,47 @@
+#splash {
+  background-color: $base3;
+  background-image: url("https://i.imgur.com/eeaGgQ5.png");
+  background-position: center;
+
+  a {
+    color: $violet;
+  }
+
+  a:hover, a:focus {
+    color: $cyan;
+  }
+
+  h2, h3 {
+    font-family: Didot, "EB Garamond", "Times New Roman", serif;
+    font-size: 1.5rem;
+    color: $base01;
+  }
+
+  .btn-primary {
+    color: $base3;
+    background-color: $violet;
+    border-color: $cyan;
+  }
+
+  .btn-primary:hover, .btn-primary:focus {
+    color: $base3;
+    background-color: $cyan;
+    border-color: $green;
+  }
+
+}
+
+@media (min-width: 576px){
+  #splash {
+    max-width: 675px;
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    h2, h3 {
+      font-size: 2rem;
+    }
+
+  }
+}

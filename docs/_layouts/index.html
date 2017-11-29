@@ -1,0 +1,11 @@
+{% include header.html %}
+  <body class="h-100">
+    <div class="container h-100">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+    {% include scripts.html %}
+    <script>
+      $("html").css("height", "100%");
+    </script>
+  </body>
